@@ -1,0 +1,36 @@
+.task, .task-selected, .task-completed {
+    display: flex;
+    justify-content: space-between;  
+    border-radius: 8px;
+    margin-bottom: 0.4rem;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 2px 4px 4px #0000009F;
+    padding: 12px;
+    position: relative;
+    cursor: pointer;
+}
+
+.task {
+    background-color: #4D4D4D;
+}
+
+.task-selected {
+    background-color: #292929;
+    box-shadow: 2px 4px 4px #0000009F inset;
+}
+
+.task-completed {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #566F42;
+}
+
+.content h3 {
+    margin-bottom: 8px;
+    word-break: break-all;
+}
+
+.content span {
+    color: #D0D0D0;
+}

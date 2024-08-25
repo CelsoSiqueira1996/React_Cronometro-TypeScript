@@ -1,0 +1,25 @@
+.watchNumber {
+    background-color: #5D677C;
+    box-shadow: 2px 2px 4px #2B2B2B inset;
+    padding: 8px 4px;
+    border-radius: 10px;
+    height: 56px;
+    width: auto;
+    width: 48px;
+    text-align: center;
+}
+
+.watchDiv {
+    height: 64px;
+}
+
+@media screen and (max-width: 530px) {
+    .watchNumber {
+        height: 32px;
+        width: 30px;
+    }
+    
+    .watchDiv {
+        height: 36px;
+    }
+}

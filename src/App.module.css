@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(0,0,0,0.9);
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    width: 800px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.container section {
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 780px) {
+    .container {
+        gap: 0.5rem;
+    }    
+}
